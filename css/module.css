@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+
+header p {
+  text-align: center;
+  
+}
+
+ul {
+  display: flex;          /* 启用弹性布局 */
+  list-style: none;       /* 移除默认列表符号 */
+  padding: 0;             /* 清除默认内边距 */
+  gap: 20px;              /* 可选：设置列表项间距 */
+}
+
+li {
+  /* 可选样式 */
+  background: #f0f0f0;
+  
+  padding: 10px;
+}
+li:hover{
+	  color:blue; /* 鼠标悬停时改变背景色 */
+}
+
+a:link {
+	color: red;
+}
+
+a:visited {
+	color: orange;
+}
+
+a:focus {
+	color: purple;
+}
+
+a:hover {
+	color: green;
+}
+
+a:active {
+	color: blue;
+}
