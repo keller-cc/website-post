@@ -14,14 +14,22 @@ ul {
   gap: 20px;              /* 可选：设置列表项间距 */
 }
 
-li {
+nav li{
   /* 可选样式 */
   background: #f0f0f0;
   
   padding: 10px;
 }
-li:hover{
+nav li:hover{
 	  color:blue; /* 鼠标悬停时改变背景色 */
+}
+
+.advanced-features-title {
+  display: flex;
+  align-items: left bottom;
+  font-size: 1.125em; /* 可选：设置标题的字体大小 */
+  font-weight: bold;
+  gap: 10px; /* 可选：设置图标和文本之间的间距 */
 }
 
 a:link {
